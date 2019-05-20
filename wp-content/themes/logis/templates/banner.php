@@ -17,16 +17,7 @@ $buttonChange = get_theme_mod('coding-banner-button');
     <div class="col-12 col-md-10 d-none d-xl-block">
       <nav class="site-navigation position-relative text-right" role="navigation">
         
-      <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-          <li><a href="#section-home" class="nav-link">Home</a></li>
-          <li class="has-children">
-            <a href="#section-about" class="nav-link">About</a>
-          </li>
-          <li><a href="#section-how-it-works" class="nav-link">How it Work</a></li>
-          <li><a href="#section-services" class="nav-link">Services</a></li>
-          <li><a href="#section-fleet" class="nav-link">Fleet</a></li>
-          <li><a href="#section-contact" class="nav-link">Contact</a></li>
-      </ul>
+
           <!-- <?php
           wp_nav_menu([
             'menu_class'=>'site-menu js-clone-nav mx-auto d-none d-lg-block',
