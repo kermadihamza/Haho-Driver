@@ -24,6 +24,15 @@ wp_head();
 ?>
     
   </head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140515867-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-140515867-1');
+</script>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="200">
   
   <!-- <div class="site-wrap"> -->
