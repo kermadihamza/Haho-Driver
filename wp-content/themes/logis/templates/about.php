@@ -17,7 +17,7 @@ $pcoltrois = get_theme_mod('coding-work-pcol3');
 
 <div class="site-section" id="section-about">
       <div class="container">
-        <div class="row mb-5">
+        <!-- <div class="row mb-5">
           
           <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade-up" data-aos-delay="100">
             <img src="<?= $image; ?>" alt="Image" class="img-fluid rounded">
@@ -31,7 +31,7 @@ $pcoltrois = get_theme_mod('coding-work-pcol3');
             
           </div>
           
-        </div>
+        </div> -->
       </div>
     </div>
   
