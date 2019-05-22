@@ -53,7 +53,6 @@ $button = get_theme_mod('coding-contact-button');
                   <textarea name="message" id="message" cols="30" rows="7" class="form-control"></textarea>
                 </div>
               </div>
-
               <div class="row form-group">
                 <div class="col-md-12">
                   <input style="background-color: <?= $button; ?>" type="submit" value="Send Message" class="btn btn-primary py-2 px-4 text-white">
