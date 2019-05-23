@@ -18,7 +18,7 @@ $buttonChange = get_theme_mod('coding-banner-button');
       <nav class="site-navigation position-relative text-right" role="navigation">
         
       <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-          <li><a href="#section-home" class="nav-link">hamza</a></li>
+          <li><a href="#section-home" class="nav-link">Home</a></li>
           <li class="has-children">
             <a href="#section-about" class="nav-link">About</a>
           </li>
