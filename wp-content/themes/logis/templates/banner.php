@@ -19,7 +19,7 @@ $buttonChange = get_theme_mod('coding-banner-button');
         
       <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
           <li><a href="#section-home" class="nav-link">Home</a></li>
-          <li class="has-children">
+          <li>
             <a href="#section-about" class="nav-link">About</a>
           </li>
           <li><a href="#section-how-it-works" class="nav-link">How it Work</a></li>
@@ -56,7 +56,7 @@ $buttonChange = get_theme_mod('coding-banner-button');
 
           <h1 style="color: <?= $colorh2; ?>" class="text-uppercase mb-0"><?= $titre; ?></h1>
           <h2 style="color: <?= $colorh2; ?>" class="font-weight-light mb-0"><?= $secondtitre; ?></h2>
-            <p data-aos="fade-up" data-aos-delay="200"><a href="https://free-template.co" style="background-color: <?= $button; ?>" class="btn btn-primary py-3 px-5 text-white"><?= $buttonChange; ?></a></p>
+            <p data-aos="fade-up" data-aos-delay="200"><a href="#section-contact" style="background-color: <?= $button; ?>" class="btn btn-primary py-3 px-5 text-white "><?= $buttonChange; ?></a></p>
 
           </div>
         </div>
