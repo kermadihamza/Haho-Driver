@@ -13,7 +13,11 @@ use App\Features\Roles\Role;
  add_action('widgets_init', [DishOfTheDayWidget::class, 'register']);
  add_action('admin_init',[Section::class,'init']);
  add_action('admin_menu',[Page::class,'init']);
- add_action('admin_action_send-mail', [MailController::class, 'send']);
+ 
+ add_action('admin_post_send-mail', [MailController::class, 'send']);
+ add_action('admin_post_nopriv_send-mail', [MailController::class, 'send']);
+
+
  add_action('admin_init', [Setup::class, 'start_session']);
  register_activation_hook(__DIR__ . '/ratatouille.php', [Database::class, 'init']);
  // Nous ajoutons des roles à l'activation du plugin.

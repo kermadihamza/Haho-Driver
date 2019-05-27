@@ -39,7 +39,7 @@ $buttonChange = get_theme_mod('coding-banner-button');
     </div>
 
 
-    <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu h3"></span></a></div>
+    <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3 changetelnav" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu h3"></span></a></div>
 
     </div>
 

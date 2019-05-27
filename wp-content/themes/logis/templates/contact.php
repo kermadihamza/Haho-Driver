@@ -3,7 +3,6 @@
 $phone = get_theme_mod('coding-contact-phone');
 $mail = get_theme_mod('coding-contact-mail');
 $button = get_theme_mod('coding-contact-button');
-
 ?>
 
 
@@ -18,6 +17,7 @@ $button = get_theme_mod('coding-contact-button');
     <?php view('partials/notice'); ?>
     <div class="row">
       <div class="col-md-7 mb-5">
+        
 
         <form action="<?= get_admin_url() . '?action=send-mail'; ?>" method="post" class="p-5 bg-white">
           <?php wp_nonce_field('send-mail'); ?>
@@ -43,17 +43,9 @@ $button = get_theme_mod('coding-contact-button');
           </div>
 
           <div class="row form-group">
-
-            <div class="col-md-12">
-              <label class="text-black" for="subject">Subject</label>
-              <input type="subject" id="subject" class="form-control">
-            </div>
-          </div>
-
-          <div class="row form-group">
             <div class="col-md-12">
               <label class="text-black" for="message">Message</label>
-              <textarea name="message" id="message" cols="30" rows="7" class="form-control" name="message" id="message" cols="30" rows="10"><?= isset($old['message']) ? $old['message'] : '' ?></textarea>
+              <textarea name="message" id="message" cols="30" rows="7" class="form-control" name="message" placeholder="Pour une résérvation, veuillez nous mettre la date, l'heure et les endroits" id="message" cols="30" rows="10"><?= isset($old['message']) ? $old['message'] : '' ?></textarea>
             </div>
           </div>
           <div class="row form-group">
