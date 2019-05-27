@@ -11,7 +11,6 @@ $button = get_theme_mod('coding-contact-button');
     <div class="row justify-content-center mb-5">
       <div class="col-md-7 text-center border-primary">
         <h2 class="font-weight-light text-primary">Contact Us</h2>
-        <p class="color-black-opacity-5">See Our Daily News &amp; Updates</p>
       </div>
     </div>
     <?php view('partials/notice'); ?>
