@@ -50,56 +50,62 @@
 
     <div class="row justify-content-center mb-5">
       <div class="col-md-7 text-center border-primary">
-        <h2 class="font-weight-light text-primary">Testimonials</h2>
+        <h2 class="font-weight-light text-primary">Ce que nos clients pensent de nous.</h2>
       </div>
     </div>
 
     <div class="slide-one-item home-slider owl-carousel">
-      <div>
-        <div class="testimonial">
-          <figure class="mb-4">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/person_1.jpg" alt="Image" class="img-fluid mb-3">
 
-          </figure>
-          <blockquote>
-            <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-            <p class="author"> &mdash; John Trump</p>
-          </blockquote>
-        </div>
-      </div>
-      <div>
+    <div>
         <div class="testimonial">
-          <figure class="mb-4">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/person_2.jpg" alt="Image" class="img-fluid mb-3">
-
-          </figure>
           <blockquote>
-            <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-            <p class="author"> &mdash; Roger Moore</p>
+            <p>&ldquo;Merci excellent conducteur tres pose et professionnel. &rdquo;</p>
           </blockquote>
         </div>
       </div>
 
       <div>
         <div class="testimonial">
-          <figure class="mb-4">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/person_4.jpg" alt="Image" class="img-fluid mb-3">
-          </figure>
           <blockquote>
-            <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-            <p class="author"> &mdash; Ben Carson</p>
+            <p>&ldquo;Was very helpful with luggage and dropping us to correct appartment. &rdquo;</p>
+          </blockquote>
+        </div>
+      </div>
+      <div>
+        <div class="testimonial">
+          <blockquote>
+            <p>&ldquo;Chauffeur vraiment sympa, je recommande. &rdquo;</p>
+          </blockquote>
+        </div>
+      </div>
+      <div>
+        <div class="testimonial">
+          <blockquote>
+            <p>&ldquo;Muy educado, rápido y servicial.&rdquo;</p>
           </blockquote>
         </div>
       </div>
 
       <div>
         <div class="testimonial">
-          <figure class="mb-4">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/person_5.jpg" alt="Image" class="img-fluid mb-3">
-          </figure>
           <blockquote>
-            <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-            <p class="author"> &mdash; Jed Smith</p>
+            <p>&ldquo;Vous m'avez sauvé la mise merci.&rdquo;</p>
+          </blockquote>
+        </div>
+      </div>
+
+      <div>
+        <div class="testimonial">
+          <blockquote>
+            <p>&ldquo;Super sympa, Genillesse et gentleman :) merci pour ma maman.&rdquo;</p>
+          </blockquote>
+        </div>
+      </div>
+
+      <div>
+        <div class="testimonial">
+          <blockquote>
+            <p>&ldquo;Incroyable service !!. &rdquo;</p>
           </blockquote>
         </div>
       </div>

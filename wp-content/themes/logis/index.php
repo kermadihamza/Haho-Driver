@@ -3,9 +3,9 @@
 get_header();
 get_template_part('templates/banner');
 get_template_part('templates/about');
+get_template_part('templates/industries');
 get_template_part('templates/services');
 get_template_part('templates/blog');
-get_template_part('templates/industries');
 get_template_part('templates/contact');
 ?>
 
