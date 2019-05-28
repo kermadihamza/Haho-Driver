@@ -7,6 +7,7 @@ class Mail
   public $userid;
   public $lastname;
   public $firstname;
+  public $subject;
   public $email;
   public $content;
   public $created_at;

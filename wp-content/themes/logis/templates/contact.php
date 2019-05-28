@@ -13,11 +13,10 @@ $button = get_theme_mod('coding-contact-button');
         <h2 class="font-weight-light text-primary">Contact Us</h2>
       </div>
     </div>
-    <?php view('partials/notice'); ?>
     <div class="row">
       <div class="col-md-7 mb-5">
         
-
+  <?php include plugin_dir_path(__FILE__) . "../includes/notice.php";?>
         <form action="<?= admin_url('admin-post.php'); ?>#section-contact" method="post" class="p-5 bg-white">
           <input type="hidden" name="action" value="send-mail">
 
@@ -29,6 +28,10 @@ $button = get_theme_mod('coding-contact-button');
             <div class="col-md-6">
               <label class="text-black" for="lname">Last Name</label>
               <input type="text" id="name" class="form-control" type="text" name="name" id="name" value="<?= isset($old['name']) ? $old['name'] : '' ?>">
+            </div>
+            <div class="col-md-12">
+              <label class="text-black" for="lname">Subject</label>
+              <input type="text" id="subject" class="form-control" type="text" name="name" id="name" value="<?= isset($old['subject']) ? $old['subject'] : '' ?>">
             </div>
           </div>
 

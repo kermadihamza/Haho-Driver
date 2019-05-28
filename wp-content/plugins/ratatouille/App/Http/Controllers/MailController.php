@@ -133,6 +133,7 @@ class MailController
       'lastname' => 'required',
       'email' => 'email',
       'firstname' => 'required',
+      'subject' => 'required',
       'content' => 'required'
     ]);
     // on récupère le mail original de la base de donnée
@@ -141,6 +142,7 @@ class MailController
     $mail->userid = get_current_user_id();
     $mail->lastname = sanitize_text_field($_POST['lastname']);
     $mail->firstname = sanitize_text_field($_POST['firstname']);
+    $mail->firstname = sanitize_text_field($_POST['subject']);
     $mail->email = sanitize_email($_POST['email']);
     $mail->content = sanitize_textarea_field($_POST['content']);
     // on met à jour dans la base de donnée et on renvoi une notification
