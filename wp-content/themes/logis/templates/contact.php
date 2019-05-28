@@ -18,9 +18,8 @@ $button = get_theme_mod('coding-contact-button');
       <div class="col-md-7 mb-5">
         
 
-        <form action="<?= get_home_url() . '?action=send-mail'; ?>" method="post" class="p-5 bg-white">
-          <?php wp_nonce_field('send-mail'); ?>
-          <input type="hidden" name="id" value="<?= $mail->id; ?>">
+        <form action="<?= admin_url('admin-post.php'); ?>#section-contact" method="post" class="p-5 bg-white">
+          <input type="hidden" name="action" value="send-mail">
 
           <div class="row form-group">
             <div class="col-md-6 mb-3 mb-md-0">
