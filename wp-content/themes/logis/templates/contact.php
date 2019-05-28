@@ -18,7 +18,7 @@ $button = get_theme_mod('coding-contact-button');
       <div class="col-md-7 mb-5">
         
 
-        <form action="<?= get_admin_url() . '?action=send-mail'; ?>" method="post" class="p-5 bg-white">
+        <form action="<?= get_home_url() . '?action=send-mail'; ?>" method="post" class="p-5 bg-white">
           <?php wp_nonce_field('send-mail'); ?>
           <input type="hidden" name="id" value="<?= $mail->id; ?>">
 
@@ -65,10 +65,6 @@ $button = get_theme_mod('coding-contact-button');
           <p class="mb-0 font-weight-bold">Email Address</p>
           <p class="mb-0"><a href="#"><?= $mail; ?></a></p>
 
-        </div>
-
-        <div class="p-4 mb-3 bg-white">
-          <p><a href="#" style="background-color: <?= $button; ?>" class="btn btn-danger px-4 py-2 text-white">Learn More</a></p>
         </div>
 
       </div>

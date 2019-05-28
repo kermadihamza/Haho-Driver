@@ -7,7 +7,6 @@ class MailController
 {
   public static function send()
   {
-
       if (!wp_verify_nonce($_POST['_wpnonce'], 'send-mail')) {
           return;
       };
@@ -36,7 +35,7 @@ class MailController
       $mail->save();
 
       // Si le mail est bien envoyé status = 'success' sinon 'error'
-      if (wp_mail($emailAdmin, 'Par ' . $name . 'email :' . $email, $message)) {
+      if (wp_mail($emailAdmin, $email, $name, $message)) {
           $_SESSION['notice'] = [
               'status' => 'success',
               'message' => 'votre e-mail a bien été envoyé',

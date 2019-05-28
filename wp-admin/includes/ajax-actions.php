@@ -5011,3 +5011,5 @@ function wp_ajax_health_check_get_sizes() {
 
 	wp_send_json_success( $all_sizes );
 }
+
+
