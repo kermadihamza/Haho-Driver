@@ -23,7 +23,7 @@ class MailController
       $email = sanitize_email($_POST['email']);
       $subject = sanitize_text_field($_POST['firstname']);
       $message = sanitize_textarea_field($_POST['message']);
-      $emailAdmin = "Admin@Admin.be";
+      $emailAdmin = "hahodriver@gmail.com";
 
       $mail = new Mail();
       $mail->userid = get_current_user_id();
